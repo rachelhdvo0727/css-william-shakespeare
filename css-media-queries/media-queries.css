@@ -1,0 +1,43 @@
+@import "../includes/styles.css";
+
+/* MEDIA QUERIES */
+@media (min-width: 699px) {
+  #menu-list > li {
+    width: 50%;
+    float: left;
+  }
+  ul#menu-list::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (min-width: 949px) {
+  #menu-list > li {
+    width: 13%;
+  }
+
+  ul#menu-list {
+    text-align: left;
+    padding: 2px var(--spaces-left-right);
+  }
+
+  section#contents::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  article {
+    float: left;
+  }
+
+  #ws-general {
+    width: 54%;
+  }
+
+  #ws-macbeth {
+    width: 39%;
+  }
+}

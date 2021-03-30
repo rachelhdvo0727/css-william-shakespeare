@@ -3,7 +3,7 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 699px) {
-  #menu-list > li {
+  ul#menu-list > li {
     width: 50%;
     float: left;
   }

@@ -1,7 +1,7 @@
 /* TOP */
 header > h1 {
   color: white;
-  padding: 0.5rem;
+  padding: 0.5rem var(--spaces-left-right);
 }
 
 ul#menu-list {

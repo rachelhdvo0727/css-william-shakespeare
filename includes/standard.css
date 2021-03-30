@@ -11,7 +11,7 @@
   --third-pink: #b9528e;
   --sans-serif: Arial, Helvetica, sans-serif;
   --serif: Georgia, "Times New Roman", Times, serif;
-  --font-size-base: calc(12.5px + 0.5vw);
+  --font-size-base: calc(13px + 0.3vw);
   --spaces-left-right: calc(0.5rem + 0.8vw);
 }
 
@@ -34,6 +34,7 @@ small {
 h1 {
   font-family: var(--serif);
   font-size: 1.8rem;
+  padding-left: var(--spaces-left-right);
 }
 
 header,
@@ -46,16 +47,19 @@ nav {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 699px) {
-  #menu-list > li {
+@media (min-width: 599px) {
+  ul#menu-list > li {
     border-right: solid var(--primary) 0.5px;
     border-left: solid var(--primary) 0.5px;
   }
 }
 
 @media (min-width: 949px) {
-  #menu-list > li {
+  ul#menu-list {
+    margin-left: var(--spaces-left-right);
+  }
+  ul#menu-list > li {
+    text-align: left;
     border: unset;
-    float: left;
   }
 }

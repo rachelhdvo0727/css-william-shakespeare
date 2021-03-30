@@ -14,13 +14,13 @@
 }
 
 @media (min-width: 949px) {
-  #menu-list > li {
+  ul#menu-list > li {
     width: 13%;
+    float: left;
   }
 
   ul#menu-list {
     text-align: left;
-    padding: 2px var(--spaces-left-right);
   }
 
   section#contents::after {
@@ -33,11 +33,11 @@
     float: left;
   }
 
-  #ws-general {
+  article#ws-general {
     width: 54%;
   }
 
-  #ws-macbeth {
+  article#ws-macbeth {
     width: 39%;
   }
 }

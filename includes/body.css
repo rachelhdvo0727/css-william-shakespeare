@@ -3,13 +3,13 @@ article {
   margin: 1rem var(--spaces-left-right);
 }
 
-#ws-macbeth {
+article#ws-macbeth {
   border-radius: 10px;
   background-color: var(--third-pink);
   padding: 1rem;
 }
 
-#ws-macbeth > p {
+article#ws-macbeth > p {
   font-family: var(--serif);
   color: white;
 }

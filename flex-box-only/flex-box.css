@@ -1,26 +1,33 @@
 @import "../includes/styles.css";
 
-#menu-list,
-#contents {
+ul#menu-list,
+section#contents {
   display: flex;
   flex-flow: row wrap;
 }
 
-#menu-list > li {
+ul#menu-list > li {
+  /* min-width: 7vw; */
   flex-grow: 1;
-  flex-basis: 300px;
+  flex-basis: min(100%, 300px);
+  /* flex-basis: 300px; */
 }
 
-#contents {
+section#contents {
   justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+article#ws-general,
+article#ws-macbeth {
+  max-width: 100%;
 }
 
 article#ws-general {
   flex: 2 0 50%;
-  max-width: 100%;
 }
+
 article#ws-macbeth {
   height: 100%;
   flex: 1 0 410px;
-  max-width: 100%;
 }

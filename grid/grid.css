@@ -1,0 +1,29 @@
+@import "../includes/styles.css";
+
+ul#menu-list,
+section#contents {
+  display: grid;
+}
+
+ul#menu-list {
+  --grid-min-size: 20rem;
+  grid-template-columns: repeat(
+    auto-fill /* auto layout items*/,
+    /* minmax clamps sizes */
+      /* 1fr is grid items' max-width --> x% of the remainning available space per item */
+      minmax(var(--grid-min-size), 1fr)
+  );
+}
+
+@media (min-width: 949px) {
+  ul#menu-list {
+    text-align: left;
+    --grid-min-size: 10rem;
+  }
+  section#contents {
+    grid-template-columns: 3fr 2fr;
+  }
+  article#ws-macbeth {
+    height: max-content;
+  }
+}

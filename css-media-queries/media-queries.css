@@ -1,4 +1,5 @@
 @import "../includes/styles.css";
+@import "../includes/responsive.css";
 
 /* MEDIA QUERIES */
 @media (min-width: 699px) {

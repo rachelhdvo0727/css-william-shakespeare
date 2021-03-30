@@ -48,6 +48,7 @@ nav {
 
 /* MEDIA QUERIES */
 @media (min-width: 599px) {
+  /* Add borders */
   ul#menu-list > li {
     border-right: solid var(--primary) 0.5px;
     border-left: solid var(--primary) 0.5px;
@@ -55,9 +56,12 @@ nav {
 }
 
 @media (min-width: 949px) {
+  /* margin for navs horizonal list */
   ul#menu-list {
     margin-left: var(--spaces-left-right);
   }
+
+  /* nav items border and text */
   ul#menu-list > li {
     text-align: left;
     border: unset;

@@ -1,4 +1,5 @@
 @import "../includes/styles.css";
+@import "../includes/responsive.css";
 
 ul#menu-list,
 section#contents {

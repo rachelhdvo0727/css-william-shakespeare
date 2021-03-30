@@ -10,6 +10,10 @@ ul#menu-list {
 }
 
 ul#menu-list > li {
-  color: var(--primary);
   border-bottom: solid var(--primary) 0.5px;
+}
+
+ul#menu-list > li > a {
+  text-decoration: none;
+  color: var(--primary);
 }

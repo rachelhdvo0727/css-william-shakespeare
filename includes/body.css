@@ -1,0 +1,15 @@
+/* BODY */
+article {
+  margin: 1rem var(--spaces-left-right);
+}
+
+#ws-macbeth {
+  border-radius: 10px;
+  background-color: var(--third-pink);
+  padding: 1rem;
+}
+
+#ws-macbeth > p {
+  font-family: var(--serif);
+  color: white;
+}

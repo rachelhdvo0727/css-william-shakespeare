@@ -1,0 +1,61 @@
+/* GENERAL STYLINGS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #872260;
+  --secondary: #e18abc;
+  --third-pink: #b9528e;
+  --sans-serif: Arial, Helvetica, sans-serif;
+  --serif: Georgia, "Times New Roman", Times, serif;
+  --font-size-base: calc(12.5px + 0.5vw);
+  --spaces-left-right: calc(0.5rem + 0.8vw);
+}
+
+a {
+  font-family: var(--sans-serif);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 1.5rem;
+  font-family: var(--sans-serif);
+  font-size: var(--font-size-base);
+}
+
+small {
+  font-family: var(--sans-serif);
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+}
+
+header,
+footer {
+  background-color: var(--primary);
+}
+
+nav {
+  background-color: var(--secondary);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 699px) {
+  #menu-list > li {
+    border-right: solid var(--primary) 0.5px;
+    border-left: solid var(--primary) 0.5px;
+  }
+}
+
+@media (min-width: 949px) {
+  #menu-list > li {
+    border: unset;
+    float: left;
+  }
+}

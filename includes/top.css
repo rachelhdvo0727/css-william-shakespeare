@@ -1,0 +1,15 @@
+/* TOP */
+header > h1 {
+  color: white;
+  padding: 0.5rem;
+}
+
+ul#menu-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu-list > li {
+  color: var(--primary);
+  border-bottom: solid var(--primary) 0.5px;
+}

@@ -18,16 +18,13 @@ section#contents {
   flex-flow: row wrap;
 }
 
-article#ws-general,
-article#ws-macbeth {
-  max-width: 100%;
-}
-
 article#ws-general {
   flex: 2 0 50%;
+  max-width: 100%;
 }
 
 article#ws-macbeth {
   height: 100%;
   flex: 1 0 410px;
+  max-width: 95%;
 }
